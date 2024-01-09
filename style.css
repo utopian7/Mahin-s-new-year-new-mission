@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  position: relative;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+section.banner {
+  font-family: "Merriweather", serif;
+  display: grid;
+  place-items: center;
+}
+
+section.banner img {
+  width: 100%;
+}
+
+section.banner .content-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  color: white;
+  background: linear-gradient(180deg, rgba(7, 2, 17, 1) 0%, rgba(7, 2, 17, 0) 100%);
+}
+
+section.banner .content-container .content {
+  text-align: center;
+}
+
+section.banner .content-container .content h2 {
+  font-size: 32px;
+  margin: 16px;
+}
+
+section.banner .content-container .content h1 {
+  font-size: 72px;
+  margin: 16px;
+}
+
+section.discount {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+}
+
+section.discount h2,
+section.discount p {
+  color: red;
+  margin-top: 30px;
+}
+
+section.discount h2 {
+  font-size: 88px;
+}
+
+section.discount p {
+  font-size: 24px;
+  margin-top: 48px;
+  font-weight: 500;
+}
+
+section.discount h3 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+section.discount img {
+  margin-top: 48px;
+}
+
+.midnight-party {
+  background-image: url('resources/Vectorrr.png');
+  background-repeat: no-repeat;
+  fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+
+.midnight-party .container {
+  width: 90%;
+  margin: 80px auto;
+}
+
+.midnight-party .container-body {
+  display: flex;
+  color: white;
+
+}
+
+.container-text h4 {
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  /* 137.5% */
+  letter-spacing: 7.04px;
+}
+
+.container-text p {
+  color: rgba(255, 255, 255, 0.80);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  /* 166.667% */
+}
+
+.container-text .btn-primary {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+
+
+
+
+
+
+section.best-offer {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.best-offer .center {
+  height: 463px;
+  width: 463px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border: 10px solid red;
+}
+
+section.holidays-sale .content {
+  text-align: center;
+  padding: 48px;
+}
+
+section.holidays-sale .images {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+}
+
+section.holidays-sale .images .right-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+section.holidays-sale .images img {
+  width: 100%;
+}
+
+section.holidays-sale .images img.discount {
+  position: absolute;
+  left: -25%;
+  width: 50%;
+}
+
+section.holidays-sale .images img.box {
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  width: 40%;
+}
+
+section.portfolio img {
+  width: 100%;
+}
+
+section.portfolio .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+section.newsletter {
+  text-align: center;
+  background-color: #FF00000D;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+section.newsletter .input-container {
+  margin-top: 3rem;
+  display: flex;
+  background-color: white;
+  max-width: 668px;
+  width: 100%;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+section.newsletter .input-container input,
+section.newsletter .input-container button {
+  outline: none;
+  border: none;
+  padding: 1rem;
+}
+
+section.newsletter .input-container input {
+  width: 70%;
+}
+
+section.newsletter .input-container button {
+  width: 30%;
+  background: #FF0000;
+  color: white;
+}
